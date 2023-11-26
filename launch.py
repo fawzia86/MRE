@@ -56,15 +56,15 @@ def prepare_environment():
 
 
 model_filenames = [
-    ('sd_xl_base_1.0_0.9vae.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors'),
-    ('sd_xl_refiner_1.0_0.9vae.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors')
+    ('realisticStockPhoto_v10.safetensors',
+     'https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors'),
+    ('vae-ft-mse-840000-ema-pruned.ckpt',
+     'https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt')
 ]
 
 lora_filenames = [
-    ('sd_xl_offset_example-lora_1.0.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors')
+    ('SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors',
+     'https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors')
 ]
 
 clip_vision_filenames = [
